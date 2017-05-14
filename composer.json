@@ -1,16 +1,16 @@
 {
-    "name": "jaculus/jaculus",
+    "name": "jaculus/framework",
     "description": "Web framework",
     "type": "project",
     "license": "MIT",
     "minimum-stability": "dev",
     "authors": [{
-        "name": "Kickupx",
-        "email": "Kickupx@gmail.com"
+        "name": "Jerry Andersson",
+        "email": "Jerry.Kittyson@gmail.com"
     }],
     "repositories": [{
-        "url": "https://github.com/PHPJaculus/backend.git",
-        "type": "git"
+        "url": "../backend",
+        "type": "path"
     }],
     "require": {
         "jaculus/backend": "*",
