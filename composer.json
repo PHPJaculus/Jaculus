@@ -1,0 +1,20 @@
+{
+    "name": "jaculus/jaculus",
+    "description": "Web framework",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [{
+        "name": "Kickupx",
+        "email": "Kickupx@gmail.com"
+    }],
+    "repositories": [{
+        "url": "https://github.com/PHPJaculus/backend.git",
+        "type": "git"
+    }],
+    "require": {
+        "jaculus/backend": "*",
+        "php-di/php-di": "~5.4",
+        "doctrine/annotations": "~1.3"
+    }
+}
